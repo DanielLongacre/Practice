@@ -7,7 +7,6 @@
     justify-content: center;
     align-items: center;
     margin-top: 100px;
-    border: 2px solid white;
     margin-bottom: 5rem;
 }
 ul {
@@ -147,4 +146,36 @@ p {
     color: #fff;
     position: inherit;
     margin-top: 50px;
+}
+
+/* New Test Area */
+nav {
+    border: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+h1 {
+    color: white;
+    margin-left: 5px;
+    padding-left: 15ch;
+    background-color: #f39c12;
+    text-transform: uppercase;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    background: transparent;
+}
+
+li {
+    display: flex;
+    align-self: center;
+}
+
+li a{
+    align-self: center;
 }
