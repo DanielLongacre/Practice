@@ -161,8 +161,25 @@ h1 {
     color: white;
     margin-left: 5px;
     padding-left: 15ch;
-    background-color: #f39c12;
-    text-transform: uppercase;
+    /* background: linear-gradient(90deg, #ff00cc, #333399); */
+    animation-name: bg;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bg {
+    0% {
+        background: #ff00cc;
+    }
+    30% {
+        background: #333399;
+    }
+    60% {
+        background-color: #333399;
+    }
+    100% {
+        background: #ff00cc;
+    }
 }
 
 ul {
