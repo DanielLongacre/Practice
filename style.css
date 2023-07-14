@@ -139,9 +139,7 @@ ul li:hover a {
         transform: rotate(360deg);
     }
 }
-.positioning {
-    
-}
+
 p {
     color: #fff;
     position: inherit;
