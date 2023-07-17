@@ -240,16 +240,17 @@ p {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    margin: 0px 25px;
 }
 #card1 {
-    flex: 2 1;
+    width: 93.4%;
 }
 .cards {
-    width: 250px;
+    width: 45%;
     height: auto;
     background-color: #f39c12;
-    margin: 5px;
-    /* align-items: flex-end; */
+    margin: 5px 0px;
+    cursor: pointer;
 }
 
 h4 {
