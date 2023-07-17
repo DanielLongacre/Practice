@@ -157,11 +157,13 @@ nav {
 
 h1 {
     color: white;
+    margin-top: 50px;
     margin-left: 5px;
     padding-left: 15ch;
     animation-name: bg;
     animation-duration: 6s;
     animation-iteration-count: infinite;
+    background-image: url(./);
 }
 
 @keyframes bg {
@@ -189,6 +191,7 @@ ul {
 
 li {
     display: flex;
+    margin: 5px;
 }
 
 li a{
